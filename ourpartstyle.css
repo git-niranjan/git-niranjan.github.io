@@ -1,0 +1,106 @@
+body{
+    
+    font-family: 'Jost', sans-serif;
+    color:black;
+    text-align: center;
+    background-position: center;
+}  
+
+.row{
+    margin-bottom: 20px;
+}
+
+#back{
+    height:200px;
+    width:200px;
+    float: left;
+}
+
+#pic1{
+    width:100%;
+    height: 300px;
+    background-image: url("C:/Users/Admin/Documents/vscode/img11.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 100px;
+}    
+#pic2{
+    width:100%;
+    height: 300px;
+    background-image: url("C:/Users/Admin/Documents/vscode/img9.png");
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+#pic3{
+    width:100%;
+    height: 300px;
+    background-image: url("C:/Users/Admin/Documents/vscode/img10.png");
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+#pic4{
+    width:100%;
+    height: 300px;
+    background-image: url("C:/Users/Admin/Documents/vscode/img7.png");
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+#pic5{
+    width:100%;
+    height: 300px;
+    background-image: url("C:/Users/Admin/Documents/vscode/img6.png");
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+#message{
+    font-size: 30px;
+    width: 150%;
+    text-align: center;
+    background-color:black;
+    opacity: 0.8;
+    color:white;
+    float:top;
+}
+
+
+
+@media screen and (max-width:560px){
+    #message{
+        font-size:20px;
+
+    }
+
+    
+    #pic-world{
+        width:396px;
+        height:392px;
+        
+
+    }
+    #text{
+        font-size:50px;
+        margin-top: 50px;
+        margin-bottom: 60px;
+    }
+   
+}
+@media screen and (min-width:561px){
+   
+    #pic-world{
+        width:596px;
+        height:592px;
+    }
+    #message{
+        font-size:30px;
+    }
+    #text{
+        font-size:50px;
+        margin-bottom:100px;
+        margin-top:80px;
+    }
+    
+}

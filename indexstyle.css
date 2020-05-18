@@ -1,0 +1,64 @@
+body{
+    
+    font-family: 'Jost', sans-serif;
+    color:black;
+    margin: 0;
+    text-align: center;
+}    
+
+
+.navbar-header{
+    background-image:url("C:/Users/Admin/Documents/vscode/img5.png");
+    height: 7em;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+#button a:hover{
+    text-decoration: none;
+}
+@media screen and (max-width:560px){
+    #text{
+        font-size: 20px;
+        margin-bottom: 50px;
+    }
+    #button{
+        background-color: black;
+        border-radius: 50px;
+        width: 60%;
+        height: 100%;
+        font-size: 20px;
+        margin-bottom: 50px;
+    }
+    #jumbotron img{
+     
+        width:203px;
+        height:233px;
+    }
+
+}
+@media screen and (min-width:561px){
+    #text{
+        font-size: 50px;
+        margin-bottom: 100px;
+    }
+    #button{
+        background-color: black;
+        border-radius: 50px;
+        width: 50%;
+        height: 100%;
+        font-size: 50px;
+        margin-bottom: 100px;
+    }
+    #jumbotron img{
+       
+        width:406px;
+        height:466px;
+    }
+}
+
+
+
